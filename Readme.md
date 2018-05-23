@@ -16,6 +16,9 @@ docker build -t jcrowthe/ethermine_exporter .
 docker run -e ADDRESS='<ethereum-address>' -p 9118:9118 jcrowthe/ethermine_exporter
 ```
 
+Then access the metrics at at http://localhost:9118
+
+
 ## License
 
 MIT
